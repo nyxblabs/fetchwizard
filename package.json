@@ -47,7 +47,7 @@
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {
-    "nyxjason": "^0.0.3",
+    "nyxjson": "^0.0.3",
     "fetch-for-all": "^0.0.3",
     "url-ops": "^0.0.4"
   },
