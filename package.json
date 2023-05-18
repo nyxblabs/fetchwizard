@@ -1,0 +1,74 @@
+{
+  "name": "fetchwizard",
+  "version": "0.0.1",
+  "description": "Experience an upgraded fetch API 🌐. Operates seamlessly on node, browsers, and workers 💻🌍🛠️.",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/fetchwizard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/fetchwizard./issues"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/node.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "node": {
+        "types": "./dist/node.d.ts",
+        "import": "./dist/node.mjs",
+        "require": "./dist/node.cjs"
+      },
+      "default": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.cjs"
+      }
+    },
+    "./node": {
+      "types": "./dist/node.d.ts",
+      "import": "./dist/node.mjs",
+      "require": "./dist/node.cjs"
+    }
+  },
+  "scripts": {
+    "build": "buildkarium",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --fix --ext .ts .",
+    "prepack": "nyxr build",
+    "play": "dynot playground/index.ts",
+    "release": "nyxr test && nyxlx changelogen@latest --release && pnpm publish && git push --follow-tags",
+    "test": "nyxr lint && vitest run --coverage"
+  },
+  "dependencies": {
+    "nyxjason": "^0.0.3",
+    "fetch-for-all": "^0.0.3",
+    "url-ops": "^0.0.4"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "0.0.53",
+    "@types/node": "^18.16.3",
+    "@vitest/coverage-c8": "^0.30.1",
+    "eslint": "^8.40.0",
+    "fetch-blob": "^3.2.0",
+    "formdata-polyfill": "^4.0.10",
+    "h3": "^1.6.4",
+    "dynot": "^0.1.8",
+    "earlist": "^0.0.2",
+    "typescript": "^5.0.4",
+    "buildkarium": "^0.0.2",
+    "vitest": "^0.30.1"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "files": [
+    "dist",
+    "node.d.ts"
+  ],
+  "keywords": []
+}
