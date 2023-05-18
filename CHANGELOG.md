@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/nyxblabs/fetchwizard/compare/v0.0.3...v0.0.4)
+
+
+### 🏡 Chore
+
+  - **karium.config.ts:** Add build configuration file This commit adds a new file named karium.config.ts which contains the build configuration for the project. The configuration specifies that the project should emit declaration files and use Rollup to bundle the code. The entries property specifies the entry points for the build process. ([bad781b](https://github.com/nyxblabs/fetchwizard/commit/bad781b))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.0.3
 
 [compare changes](https://github.com/nyxblabs/fetchwizard/compare/v0.0.2...v0.0.3)

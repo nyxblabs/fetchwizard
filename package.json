@@ -1,6 +1,6 @@
 {
   "name": "fetchwizard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Experience an upgraded fetch API 🌐. Operates seamlessly on node, browsers, and workers 💻🌍🛠️.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
