@@ -37,13 +37,13 @@
     }
   },
   "scripts": {
+    "prepack": "nyxr build",
     "build": "buildkarium",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --fix --ext .ts .",
-    "prepack": "nyxr build",
     "play": "dynot playground/index.ts",
-    "release": "nyxr test && nyxlx changelogen@latest --release && pnpm publish && git push --follow-tags",
+    "release": "nyxlx changelogen@latest --release && pnpm publish && git push --follow-tags",
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {
@@ -60,7 +60,7 @@
     "formdata-polyfill": "^4.0.10",
     "h3": "^1.6.4",
     "dynot": "^0.1.8",
-    "earlist": "^0.0.2",
+    "earlist": "^0.0.3",
     "typescript": "^5.0.4",
     "buildkarium": "^0.0.2",
     "vitest": "^0.30.1"

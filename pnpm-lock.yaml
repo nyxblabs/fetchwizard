@@ -28,8 +28,8 @@ devDependencies:
     specifier: ^0.1.8
     version: 0.1.8
   earlist:
-    specifier: ^0.0.2
-    version: 0.0.2
+    specifier: ^0.0.3
+    version: 0.0.3
   eslint:
     specifier: ^8.40.0
     version: 8.40.0
@@ -2878,8 +2878,8 @@ packages:
       requireflow: 0.0.2
     dev: true
 
-  /earlist@0.0.2:
-    resolution: {integrity: sha512-1oLRR/jt0pLLu4xM9nitakludtpDobHqbtJhUeRdXfsOYsN2YJolOhKiQVQ7DMO8z9V62aAyc8svULR2FrOLFA==}
+  /earlist@0.0.3:
+    resolution: {integrity: sha512-dprV3+VWaUou8ifKBpCA7ABnGuqME3tl/GNFTMpzgP0lvwpNvPHj0Kp0WaS7ih1H28q72SLtgRoJF7kcTl230g==}
     dependencies:
       '@nyxb/picocolors': 1.0.2
       clipboardy: 3.0.0
