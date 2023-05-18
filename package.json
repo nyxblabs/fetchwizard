@@ -4,13 +4,13 @@
   "description": "Experience an upgraded fetch API 🌐. Operates seamlessly on node, browsers, and workers 💻🌍🛠️.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
-  "hompage": "https://💻nyxb.ws",
+  "homepage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyxblabs/fetchwizard.git"
   },
   "bugs": {
-    "url": "https://github.com/nyxblabs/fetchwizard./issues"
+    "url": "https://github.com/nyxblabs/fetchwizard/issues"
   },
   "sideEffects": false,
   "type": "module",
